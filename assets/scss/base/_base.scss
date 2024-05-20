@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Gotham Medium';
+    src: url('./font/Gotham-Medium.woff2') format('woff2'),
+        url('./font/Gotham-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('./font/Gotham-Book.woff2') format('woff2'),
+        url('./font/Gotham-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Gotham Medium';
+}
+
+span,li,p,a{
+    font-family: 'Gotham Book';
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size:.875rem
+    }
+}
